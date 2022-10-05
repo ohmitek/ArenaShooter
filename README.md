@@ -11,7 +11,6 @@ You can contribute by submitting your own scripts written in C#, which you think
 - Clone repository
 - Add your scripts
 - Commit and push
-- Create a pull request
 - Star this repository
 - Celebrate your first step into the IDGT2022 and contribute more
 

@@ -4,7 +4,7 @@
 ### Description
 
 Welcome aboard fellow developer, this is where you will find IDGT2022 game project which you are free to contribute to.
-You can contribute by submitting your own scripts, also written in C#, which you think would be amazing for other people to see.
+You can contribute by submitting your own scripts written in C#, which you think would be amazing for other people to see.
 
 ### Instructions
 

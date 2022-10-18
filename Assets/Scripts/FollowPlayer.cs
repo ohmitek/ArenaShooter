@@ -6,7 +6,7 @@ public class FollowPlayer : MonoBehaviour
 {
 
     public GameObject playerObject;
-    private Vector3 offset = new Vector3(0, 3, 0);
+    private Vector3 offset = new Vector3(0, 0, -3);
 
 
     // Start is called before the first frame update

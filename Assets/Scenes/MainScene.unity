@@ -581,7 +581,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
@@ -668,19 +667,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 866e2097a67fcc944b62b1b7397436a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerSpeed: 10
 --- !u!1 &954457644
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,7 +742,7 @@ GameObject:
   - component: {fileID: 1043403178}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -839,6 +825,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 10
+  bullet_GameObject: {fileID: 8290794844641501557, guid: 094da844324fa224e951fb1df6959578, type: 3}
+  current_direction: {x: 0, y: 0, z: 0}
 --- !u!50 &1043403179
 Rigidbody2D:
   serializedVersion: 4
@@ -1116,7 +1104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503231202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 160.6}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1234712916}

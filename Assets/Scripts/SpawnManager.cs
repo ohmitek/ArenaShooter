@@ -4,20 +4,29 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject Spawn_PointOne;
-    public GameObject Spawn_PointTwo;
-    public GameObject Spawn_PointThree;
-    public GameObject Spawn_PointFour;
+    
+    public Transform[] spawnPoints;
+    public GameObject[] enemyPrefabs;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+    
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            int randEnemy = Random.Range(0,enemyPrefabs.Length);
+            int randSpawnPoint = Random.Range(0,spawnPoints.Length);
         
+            Instantiate(enemyPrefabs[randEnemy], spawnPoints[randSpawnPoint].position, transform.rotation);
+
+
+
+        }
+
     }
 }

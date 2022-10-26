@@ -5,13 +5,20 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    //Movement varaibles
 
-    private float horizontalInput;
-    private float verticalInput;
-    public float playerSpeed = 10.0f;
+    public float playerSpeed = 5f;
+    public Rigidbody2D rb;
+    private Vector2 mousePos;
+    float movement_y;
+    float movement_x;
+    public Camera cam;
 
-    public GameObject bullet_GameObject;
-    public Vector2 current_direction;
+    //Shooing variables
+
+
+
+
 
 
     // Start is called before the first frame update
@@ -21,67 +28,33 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        //// Making player input available.
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        movement_x = Input.GetAxis("Horizontal");
+        movement_y = Input.GetAxis("Vertical");
 
-        // Makes Player game object move across the arena.
-        transform.Translate(Vector2.up * verticalInput * Time.deltaTime * playerSpeed);
-        transform.Translate(Vector2.right * horizontalInput * Time.deltaTime * playerSpeed); // return on if not wokring
-        //giveCurrentDirection();
-        if (Input.GetKeyDown(KeyCode.A))
-        {            
-            current_direction = Vector2.left;
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {           
-            current_direction = Vector2.right;
-        }
-        else if (Input.GetKeyDown(KeyCode.W))
-        {           
-            current_direction = Vector2.up;
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {           
-            current_direction = Vector2.down;
-        }
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-
-
-
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Instantiate(bullet_GameObject, transform.position, Quaternion.identity);
-            //current_direction = gameObject.transform.position;
-
-            
-        }
 
     }
 
-    //public Vector2 giveCurrentDirection()
-    //{
-    //    current_direction = Vector2.up;
-    //    return current_direction;
-    //}
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+
+
+        transform.Translate(Vector2.right * movement_x * Time.deltaTime * playerSpeed);
+        transform.Translate(Vector2.up * movement_y * Time.deltaTime * playerSpeed);
+
+        //Vector2 lookDir = mousePos - rb.position;
+        //float angle = Mathf.Atan2(lookDir.y, lookDir.x)* Mathf.Rad2Deg - 90f;
+        //rb.rotation = angle;
+
+
+    }
 
 
 
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    Debug.Log("Trigger");
-    //}
-
-
-
-    //void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    Debug.Log("Collision!!!"); // Just for debugging. Comment out if 
-    //}
 
 
 }

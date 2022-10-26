@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: f5d6e0e363f22244aaa6d7a2aff4f539
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9083941971565969426
+    second: WALKCYCLES_0
+  - first:
+      213: -7830943614448204929
+    second: WALKCYCLES_1
+  - first:
+      213: -572082453564637048
+    second: WALKCYCLES_2
+  - first:
+      213: 8104288995400968637
+    second: WALKCYCLES_3
+  - first:
+      213: 8944927167714427694
+    second: WALKCYCLES_4
+  - first:
+      213: -5889415395423185901
+    second: WALKCYCLES_5
+  - first:
+      213: 7775777412611725855
+    second: WALKCYCLES_6
+  - first:
+      213: 5842588167502900308
+    second: WALKCYCLES_7
+  - first:
+      213: 4875432892319074577
+    second: WALKCYCLES_8
+  - first:
+      213: -7948271239448144623
+    second: WALKCYCLES_9
+  - first:
+      213: -99844241296060178
+    second: WALKCYCLES_10
+  - first:
+      213: 8447995401284363167
+    second: WALKCYCLES_11
+  - first:
+      213: -4082131865683207443
+    second: WALKCYCLES_12
+  - first:
+      213: -8149901492750201304
+    second: WALKCYCLES_13
+  - first:
+      213: 4585814889634954461
+    second: WALKCYCLES_14
+  - first:
+      213: 4319282826113536431
+    second: WALKCYCLES_15
+  - first:
+      213: 654029675788680996
+    second: WALKCYCLES_16
+  - first:
+      213: 2189846661757247015
+    second: WALKCYCLES_17
+  - first:
+      213: 560175747181465012
+    second: WALKCYCLES_18
+  - first:
+      213: -7413728643342747634
+    second: WALKCYCLES_19
+  - first:
+      213: 6608593553236202418
+    second: WALKCYCLES_20
+  - first:
+      213: -8810964452297104610
+    second: WALKCYCLES_21
+  - first:
+      213: 2978623803993574116
+    second: WALKCYCLES_22
+  - first:
+      213: -4466840984791903268
+    second: WALKCYCLES_23
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WALKCYCLES_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1043
+        width: 154
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef7c88d7ea5fe180800000000000000
+      internalID: -9083941971565969426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1043
+        width: 189
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7383b4d546e25390800000000000000
+      internalID: -7830943614448204929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1043
+        width: 154
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880cb0d1a0e8f08f0800000000000000
+      internalID: -572082453564637048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_3
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1043
+        width: 175
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db96bf727e7387070800000000000000
+      internalID: 8104288995400968637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_4
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1043
+        width: 196
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e230c55edd3c22c70800000000000000
+      internalID: 8944927167714427694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_5
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1043
+        width: 154
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314951db6e7944ea0800000000000000
+      internalID: -5889415395423185901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 686
+        width: 161
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a5a33eb5c19eb60800000000000000
+      internalID: 7775777412611725855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 707
+        width: 168
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c29e4abfa051150800000000000000
+      internalID: 5842588167502900308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_8
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 700
+        width: 161
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1190fe8626409a340800000000000000
+      internalID: 4875432892319074577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_9
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 686
+        width: 154
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1155d326b6112b190800000000000000
+      internalID: -7948271239448144623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_10
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 700
+        width: 161
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee01ea801384d9ef0800000000000000
+      internalID: -99844241296060178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_11
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 707
+        width: 161
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9320bdde0f4d3570800000000000000
+      internalID: 8447995401284363167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 371
+        width: 147
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea56ab32ba5957c0800000000000000
+      internalID: -4082131865683207443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 371
+        width: 189
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ec23ab5cbb5ee80800000000000000
+      internalID: -8149901492750201304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_14
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 371
+        width: 147
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc736e685614af30800000000000000
+      internalID: 4585814889634954461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_15
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 371
+        width: 133
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa151f688dc21fb30800000000000000
+      internalID: 4319282826113536431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_16
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 371
+        width: 196
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fb2f16684931900800000000000000
+      internalID: 654029675788680996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_17
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 371
+        width: 140
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e9d92cfe5e36e10800000000000000
+      internalID: 2189846661757247015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_18
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 42
+        width: 154
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd4a86cfd426c700800000000000000
+      internalID: 560175747181465012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_19
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 35
+        width: 147
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08ba6814152d1990800000000000000
+      internalID: -7413728643342747634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_20
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 7
+        width: 147
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b39495a2d076bb50800000000000000
+      internalID: 6608593553236202418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_21
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 42
+        width: 154
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13ac3c538a29b580800000000000000
+      internalID: -8810964452297104610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_22
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 14
+        width: 147
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea4f8c7192365920800000000000000
+      internalID: 2978623803993574116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKCYCLES_23
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 28
+        width: 147
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd392596ac79202c0800000000000000
+      internalID: -4466840984791903268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

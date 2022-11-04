@@ -5,15 +5,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+
 public class HpManager : MonoBehaviour
 {
-
-    public Text hpText;
+    public Slider healthBar;
     public int playerHP_number = 100;
+
     // Start is called before the first frame update
     void Start()
     {
-        hpText.text = playerHP_number.ToString();
+        healthBar.value = playerHP_number;
     }
 
     // Update is called once per frame
@@ -27,14 +28,16 @@ public class HpManager : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             Up_Date_Player_Hp();
-
         }
         
     }
 
     private void Up_Date_Player_Hp()
     {
-        playerHP_number = playerHP_number - 10;
-        hpText.text = playerHP_number.ToString();
+        playerHP_number = playerHP_number - 10;        
+        healthBar.value = playerHP_number;
+
     }
+
+
 }

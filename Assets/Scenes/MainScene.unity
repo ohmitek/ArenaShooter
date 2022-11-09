@@ -464,6 +464,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7704609347940293481, guid: db4cc85618eec2740a8924c087c6d754, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7704609347940293481, guid: db4cc85618eec2740a8924c087c6d754, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7704609347940293481, guid: db4cc85618eec2740a8924c087c6d754, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1007586771
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -16481149261180393, guid: db4cc85618eec2740a8924c087c6d754, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: db4cc85618eec2740a8924c087c6d754, type: 3}
@@ -903,7 +915,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1832068191
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cdfd2eb14b2f6a14089a1274f8ee3cf4, type: 3}
   m_Color: {r: 0.7169812, g: 0.5580278, b: 0.5580278, a: 1}
@@ -1064,6 +1076,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1343875282}
     m_Modifications:
+    - target: {fileID: -6015610272923446683, guid: 205e15746e6d5f14686be939a2c95f23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6015610272923446683, guid: 205e15746e6d5f14686be939a2c95f23, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6015610272923446683, guid: 205e15746e6d5f14686be939a2c95f23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1007586771
+      objectReference: {fileID: 0}
     - target: {fileID: 5457875796675340164, guid: 205e15746e6d5f14686be939a2c95f23, type: 3}
       propertyPath: speed
       value: 1.5

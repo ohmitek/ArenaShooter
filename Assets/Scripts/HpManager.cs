@@ -37,7 +37,15 @@ public class HpManager : MonoBehaviour
         playerHP_number = playerHP_number - 10;        
         healthBar.value = playerHP_number;
 
+        if (playerHP_number == 0)
+        {
+            Loader.Load(Loader.Scene.GameOver);
+
+        }
+
     }
+
+
 
 
 }

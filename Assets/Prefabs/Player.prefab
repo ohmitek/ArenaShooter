@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1065950581}
   - component: {fileID: 1065950580}
   - component: {fileID: 1065950579}
+  - component: {fileID: 762816919}
   m_Layer: 0
   m_Name: Aim_Object
   m_TagString: Untagged
@@ -71,9 +72,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1007586771
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -124,6 +125,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &762816919
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065950577}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0032773018, y: 0.016386032}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3342726, y: 1.2949464}
+  m_EdgeRadius: 0
 --- !u!1 &4560280182604181725
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +247,7 @@ GameObject:
   - component: {fileID: 6377822411368869392}
   - component: {fileID: 6377822411368869393}
   - component: {fileID: 986165800906073082}
-  - component: {fileID: 677490494}
+  - component: {fileID: 677490489}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -353,6 +380,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866e2097a67fcc944b62b1b7397436a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 677490489}
+  xRange: 52.54235
+  yRange: 52.54235
   playerSpeed: 12
   rb: {fileID: 6377822411368869392}
   cam: {fileID: 0}
@@ -369,9 +399,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
-  hpText: {fileID: 0}
   playerHP_number: 100
---- !u!95 &677490494
+--- !u!95 &677490489
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

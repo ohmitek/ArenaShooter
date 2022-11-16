@@ -43,4 +43,14 @@ public class AimToShoot : MonoBehaviour
         Rigidbody2D bullet_rb = bullet.GetComponent<Rigidbody2D>();
         bullet_rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Wall")
+        {
+            Debug.Log("Stop");
+            gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+
+        }
+
+    }
 }

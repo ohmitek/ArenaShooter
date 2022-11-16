@@ -699,7 +699,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Arena Shooter
+  m_text: ARENA  SHOOTER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6f64e3cfac4bf0c41aefc34e7dae9b0b, type: 2}
   m_sharedMaterial: {fileID: 4515784819964727267, guid: 6f64e3cfac4bf0c41aefc34e7dae9b0b, type: 2}
@@ -726,8 +726,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 200
-  m_fontSizeBase: 200
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0

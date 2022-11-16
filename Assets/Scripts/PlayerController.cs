@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     //Movement varaibles
 
+    public float xRange = 10f;
+    public float yRange = 10f;
     public float playerSpeed = 5f;
     public Rigidbody2D rb;
     private Vector2 mousePos;
@@ -17,14 +19,15 @@ public class PlayerController : MonoBehaviour
     //Shooing variables
 
 
-
+    // Limiting player movement
+    private Collider wall;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
 
     }
 
@@ -41,17 +44,38 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        PlayerMove();
 
+    }
 
+    private void PlayerMove()
+    {
+        
         transform.Translate(Vector2.right * movement_x * Time.deltaTime * playerSpeed);
         transform.Translate(Vector2.up * movement_y * Time.deltaTime * playerSpeed);
 
-        //Vector2 lookDir = mousePos - rb.position;
-        //float angle = Mathf.Atan2(lookDir.y, lookDir.x)* Mathf.Rad2Deg - 90f;
-        //rb.rotation = angle;
+        if(transform.position.x < - xRange)
+        {
+            transform.position = new Vector2(-xRange, transform.position.y);
+        }
+        if (transform.position.y < - yRange)
+        {
+            transform.position = new Vector2(transform.position.x, - yRange);
+        }
 
+
+        if (transform.position.x > xRange)
+        {
+            transform.position = new Vector2(xRange, transform.position.y);
+        }
+
+        if (transform.position.y > yRange)
+        {
+            transform.position = new Vector2(transform.position.x, yRange);
+        }
 
     }
+
 
 
 

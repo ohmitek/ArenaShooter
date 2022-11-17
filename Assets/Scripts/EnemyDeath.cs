@@ -17,16 +17,11 @@ public class EnemyDeath : MonoBehaviour
     }
     
     private void OnTriggerEnter2D(Collider2D col)
-    {
-        
+    {        
         if (col.gameObject.CompareTag ("Bullet"))
         {
-            
-            Debug.Log ("Collision detected!");
             Destroy (col.gameObject);
             Destroy (gameObject);
-        }
-
-        
+        }       
     }
 }

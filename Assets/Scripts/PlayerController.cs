@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
     //Animation
     public Animator animator;
 
@@ -18,7 +19,7 @@ public class PlayerController : MonoBehaviour
     float movement_y;
     float movement_x;
     public Camera cam;
-
+ 
 
     void Update()
     {

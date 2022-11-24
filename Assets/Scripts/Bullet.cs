@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     IEnumerator Start()
     {
         yield return StartCoroutine(DestroyAfterTime(2.0f));
-        print("Done " + Time.time);
+
     }
 
     IEnumerator DestroyAfterTime(float waitTime)

@@ -7,20 +7,21 @@ using TMPro;
 public class UiButtons : MonoBehaviour
 {
     public Button retryBu;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Button retryButton = retryButton.onClick(); 
-        
-    }
+    public Button quitBu;
+
 
     // Update is called once per frame
     void Update()
     {
         retryBu.onClick.AddListener(doSomething);
-        
+        quitBu.onClick.AddListener(quitGame);
+
     }
 
+    private void quitGame()
+    {
+        Application.Quit();
+    }
     private void doSomething()
     {
         Loader.Load(Loader.Scene.MainScene);

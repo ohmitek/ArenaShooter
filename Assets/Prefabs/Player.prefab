@@ -381,8 +381,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 677490489}
-  xRange: 52.54235
-  yRange: 52.54235
+  xRange: 52
+  yRange: 52
   playerSpeed: 12
   rb: {fileID: 6377822411368869392}
   cam: {fileID: 0}

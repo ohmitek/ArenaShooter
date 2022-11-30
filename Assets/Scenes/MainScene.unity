@@ -3205,6 +3205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6d0ccd9186c7bf44bba071c14add4bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnParticle: {fileID: 5465843881418042617, guid: 7ae236a59a9d34844a667fe55d8c396c, type: 3}
   spawnPoints:
   - {fileID: 470527462}
   - {fileID: 128746227}
@@ -4845,54 +4846,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 762816919, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1.032258
-      objectReference: {fileID: 0}
-    - target: {fileID: 762816919, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.032258
-      objectReference: {fileID: 0}
-    - target: {fileID: 932389825, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 932389825, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_SpriteSortPoint
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1065950578, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 4.0812106
-      objectReference: {fileID: 0}
-    - target: {fileID: 1065950578, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 4.0812106
-      objectReference: {fileID: 0}
-    - target: {fileID: 1065950578, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.349
-      objectReference: {fileID: 0}
-    - target: {fileID: 1065950578, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.0034602
-      objectReference: {fileID: 0}
-    - target: {fileID: 1065950578, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.017301
-      objectReference: {fileID: 0}
     - target: {fileID: 1065950580, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
       propertyPath: cam
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 1065950581, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1065950581, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 986165800906073082, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
       propertyPath: healthBar
       value: 
@@ -4901,14 +4858,6 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 6377822411368869393, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: xRange
-      value: 52
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377822411368869393, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
-      propertyPath: yRange
-      value: 52
-      objectReference: {fileID: 0}
     - target: {fileID: 6377822411368869394, guid: 9d15ac26c299ac04c90052698c691815, type: 3}
       propertyPath: m_RootOrder
       value: 2

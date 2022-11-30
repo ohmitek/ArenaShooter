@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
+    // VFX
+    //public ParticleSystem spawnParticle;
+
     //public int ammount;    
     public Transform[] spawnPoints; // List of spawnpoints
     public GameObject[] enemyPrefabs; // List of enemies
@@ -45,6 +48,7 @@ public class SpawnManager : MonoBehaviour
             int randEnemy = Random.Range(0,enemyPrefabs.Length);
             int randSpawnPoint = Random.Range(0,spawnPoints.Length);
             Instantiate(enemyPrefabs[randEnemy], spawnPoints[randSpawnPoint].position, transform.rotation);
+            //Instantiate(spawnParticle, spawnPoints[randSpawnPoint].position, transform.rotation);
         }
     }
 }

@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    // VFX
+    public ParticleSystem walkParticle;
 
     //Animation
     public Animator animator;
@@ -18,60 +20,65 @@ public class PlayerController : MonoBehaviour
     private Vector2 mousePos;
     float movement_y;
     float movement_x;
+
+    // Camera
     public Camera cam;
  
 
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.D))
         {
+            walkParticle.Play();
             animator.SetBool("movingRight", true);
             animator.SetBool("movingLeft", false);
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
+            walkParticle.Stop();
             animator.SetBool("movingRight", false);
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
+            walkParticle.Play();
             animator.SetBool("movingLeft", true);
             animator.SetBool("movingRight", false);
 
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
+            walkParticle.Stop();
             animator.SetBool("movingLeft", false);
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
+            walkParticle.Play();
             animator.SetBool("movingUp", true);
             animator.SetBool("movingDown", false);
         }
         if (Input.GetKeyUp(KeyCode.W))
         {
+            walkParticle.Stop();
             animator.SetBool("movingUp", false);
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
+            walkParticle.Play();
             animator.SetBool("movingDown", true);
             animator.SetBool("movingUp", false);
         }
         if (Input.GetKeyUp(KeyCode.S))
         {
+            walkParticle.Stop();
             animator.SetBool("movingDown", false);
         }
-
-
-
+        
 
         movement_x = Input.GetAxis("Horizontal");
         movement_y = Input.GetAxis("Vertical");
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-
-
-
-
 
     }
 
@@ -86,7 +93,7 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerMove()
     {
-
+        
 
         transform.Translate(Vector2.right * movement_x * Time.deltaTime * playerSpeed);
 

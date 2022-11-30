@@ -27,6 +27,7 @@ public class HpManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
+
             Up_Date_Player_Hp();
         }
         

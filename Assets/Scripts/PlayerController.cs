@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             walkParticle.Play();
+            AudioManager.instance.Play("walk_hero_sound");
             animator.SetBool("movingRight", true);
             animator.SetBool("movingLeft", false);
         }
@@ -41,6 +42,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
+            AudioManager.instance.Play("walk_hero_sound");
             walkParticle.Play();
             animator.SetBool("movingLeft", true);
             animator.SetBool("movingRight", false);
@@ -53,6 +55,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
+            AudioManager.instance.Play("walk_hero_sound");
             walkParticle.Play();
             animator.SetBool("movingUp", true);
             animator.SetBool("movingDown", false);
@@ -64,6 +67,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
+            AudioManager.instance.Play("walk_hero_sound");
             walkParticle.Play();
             animator.SetBool("movingDown", true);
             animator.SetBool("movingUp", false);

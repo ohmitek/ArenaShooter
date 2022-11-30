@@ -26,6 +26,8 @@ public class AimToShoot : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            AudioManager.instance.Play("blaster_sfx");
+            AudioManager.instance.Play("shot_sound");
         }
 
 

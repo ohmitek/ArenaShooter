@@ -10,6 +10,7 @@ public class SpawnManager : MonoBehaviour
     //public int ammount;    
     public Transform[] spawnPoints; // List of spawnpoints
     public GameObject[] enemyPrefabs; // List of enemies
+    public GameObject[] bossPrefabs; // List of bosses
     public static int enemyCount;
     public static int spawnCount;
     public static int score;
@@ -50,5 +51,15 @@ public class SpawnManager : MonoBehaviour
             Instantiate(enemyPrefabs[randEnemy], spawnPoints[randSpawnPoint].position, transform.rotation);
             //Instantiate(spawnParticle, spawnPoints[randSpawnPoint].position, transform.rotation);
         }
+
+    if (spawnCount == 4)
+    {
+        int randBoss = Random.Range(0,bossPrefabs.Length);
+        int randSpawnPoint = Random.Range(0,spawnPoints.Length);
+        Instantiate(bossPrefabs[randBoss], spawnPoints[randSpawnPoint].position, transform.rotation);
+    }
+
+
+        
     }
 }

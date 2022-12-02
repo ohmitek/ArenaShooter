@@ -3385,6 +3385,8 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 5854281767038101199, guid: db4cc85618eec2740a8924c087c6d754, type: 3}
   - {fileID: 8100770085117478509, guid: 205e15746e6d5f14686be939a2c95f23, type: 3}
+  bossPrefabs:
+  - {fileID: 3704235084791583561, guid: 227a2d889848f3d4280383d874127002, type: 3}
 --- !u!1 &1347721176
 GameObject:
   m_ObjectHideFlags: 0

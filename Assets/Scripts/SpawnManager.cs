@@ -41,7 +41,7 @@ public class SpawnManager : MonoBehaviour
     }
     private void Spawn(int ammount) // This spawns the enemies between random spawnpoints.
     {
-
+        AudioManager.instance.Play("birth_enemy_sound");
         spawnCount+=1;
         for (int i = 1; i < ammount * spawnCount +1; i++)
         {

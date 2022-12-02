@@ -23,6 +23,7 @@ public class EnemyController : MonoBehaviour
         if (col.gameObject.CompareTag ("Bullet"))
         {
             Instantiate(destroyParticle, gameObject.transform.position, gameObject.transform.rotation);
+            AudioManager.instance.Play("death_enemy_sound");
             Destroy (col.gameObject);
             Destroy (gameObject);
         }       

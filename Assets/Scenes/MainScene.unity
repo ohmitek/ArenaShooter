@@ -1116,7 +1116,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 35aa1cdee2a7dfc429c174d264170ca5, type: 3}
     mixer: {fileID: 0}
     volume: 0.296
-    pitch: 0.96
+    pitch: 0.9
     loop: 0
     source: {fileID: 0}
   - name: blaster_sfx
@@ -1129,14 +1129,28 @@ MonoBehaviour:
   - name: shot_sound
     clip: {fileID: 8300000, guid: 3abe22486e9e0254b973ba752bfb75c3, type: 3}
     mixer: {fileID: 0}
-    volume: 0.054
+    volume: 0.073
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: walk_hero_sound
-    clip: {fileID: 8300000, guid: eca735081a5303e4694d7b0fa6672fdf, type: 3}
+    clip: {fileID: 8300000, guid: 77532591fddf268439feb2ed1e5a467f, type: 3}
     mixer: {fileID: 0}
-    volume: 0.057
+    volume: 0.052
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: death_enemy_sound
+    clip: {fileID: 8300000, guid: 3dd9d25f3f1e95d47a0bc3b702a54ffb, type: 3}
+    mixer: {fileID: 0}
+    volume: 0.064
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: birth_enemy_sound
+    clip: {fileID: 8300000, guid: 0900b6fc35077b84baa1007a36d5ad20, type: 3}
+    mixer: {fileID: 0}
+    volume: 0.089
     pitch: 1
     loop: 0
     source: {fileID: 0}

@@ -10,6 +10,7 @@ public class AimToShoot : MonoBehaviour
     public float aimSpeed = 5f;
     public Rigidbody2D aim_rb;
     private Vector2 mousePos;
+    public static int shotsound = 0;
 
 
     public float bulletForce = 20f;
@@ -25,9 +26,15 @@ public class AimToShoot : MonoBehaviour
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetButtonDown("Fire1"))
         {
+            shotsound += 1;
             Shoot();
             AudioManager.instance.Play("blaster_sfx");
-            AudioManager.instance.Play("shot_sound");
+            if (shotsound == 15)
+            {
+                AudioManager.instance.Play("shot_sound");
+                shotsound = 0;
+            }
+            
         }
 
 

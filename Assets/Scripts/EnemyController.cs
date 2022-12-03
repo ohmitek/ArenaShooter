@@ -8,9 +8,11 @@ public class EnemyController : MonoBehaviour
     public ParticleSystem destroyParticle;
     public ParticleSystem spawnParticle;
 
+    // ENEMY
     private GameObject Player;
-    public float speed;
+    public float speed; // Every enemy has different speed
     private float distance;
+    public int enemyHP_number; // Every enemy has different HP number
 
     // Start is called before the first frame update
     void Start()
@@ -18,18 +20,25 @@ public class EnemyController : MonoBehaviour
         Instantiate(spawnParticle, gameObject.transform.position, gameObject.transform.rotation);    
     }
 
+    // ENEMYDEATH
     private void OnTriggerEnter2D(Collider2D col)
     { 
         if (col.gameObject.CompareTag ("Bullet"))
         {
-            Instantiate(destroyParticle, gameObject.transform.position, gameObject.transform.rotation);
-            AudioManager.instance.Play("death_enemy_sound");
+            enemyHP_number -= 50; // Everytime bullet collade, the HP number decrease.
             Destroy (col.gameObject);
-            Destroy (gameObject);
+            if (enemyHP_number == 0)
+            {
+                Instantiate(destroyParticle, gameObject.transform.position, gameObject.transform.rotation);
+                AudioManager.instance.Play("death_enemy_sound");
+                Destroy (gameObject);
+            }
+           
         }       
     }
 
     // Update is called once per frame
+    // ENEMYCHASE
     void Update()
     {
         GameObject Player = GameObject.FindGameObjectWithTag("Player");

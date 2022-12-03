@@ -33,14 +33,16 @@ public class SpawnManager : MonoBehaviour
         }
      
     }
-
+        // THIS CHECKS HOW MANY ENEMIES ARE ON LEVEL
         public void CheckEnemyCount()
     {
         enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
         print("|| Enemies: " + enemyCount + " || Wave: " + spawnCount + " || Score: " + score + " || ");
         
     }
-    private void Spawn(int ammount) // This spawns the enemies between random spawnpoints.
+
+    // SPAWN ENEMY BETWEEN RANDOM SPAWNPOINTS
+    private void Spawn(int ammount)
     {
         AudioManager.instance.Play("birth_enemy_sound");
         spawnCount+=1;
@@ -51,15 +53,14 @@ public class SpawnManager : MonoBehaviour
             Instantiate(enemyPrefabs[randEnemy], spawnPoints[randSpawnPoint].position, transform.rotation);
             //Instantiate(spawnParticle, spawnPoints[randSpawnPoint].position, transform.rotation);
         }
-
-    if (spawnCount == 4)
+    
+    // BOSS SPAWN EVERY 4 WAVES 
+    if (spawnCount %4==0)
     {
         int randBoss = Random.Range(0,bossPrefabs.Length);
         int randSpawnPoint = Random.Range(0,spawnPoints.Length);
         Instantiate(bossPrefabs[randBoss], spawnPoints[randSpawnPoint].position, transform.rotation);
     }
-
-
-        
+          
     }
 }

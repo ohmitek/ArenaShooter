@@ -40,7 +40,10 @@ public class HpManager : MonoBehaviour
 
         if (playerHP_number == 0)
         {
+
             Loader.Load(Loader.Scene.GameOver);
+            //Set Cursor to visible again
+            Cursor.visible = true;
             AudioManager.instance.Play("game_over");
 
         }

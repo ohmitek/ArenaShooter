@@ -2,7 +2,7 @@
 # Arena Shooter
 ## IDGT2022 | Introduction to Game Development Tools
 
-- Group game project for Python and Pygame.
+- Group game project for Unity.
 - Shoot the UFOs that spawn in waves before they get you!
 
 ## Additional tools to help you get Started with IDGT2022

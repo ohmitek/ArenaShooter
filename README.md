@@ -2,10 +2,7 @@
 # Arena Shooter
 ## IDGT2022 | Introduction to Game Development Tools
 
-### Description
-
-Welcome aboard fellow developer, this is where you will find IDGT2022 game project files which you are free to contribute to.
-You can contribute by submitting your own scripts written in C#, which you think would be amazing for other people to see.
+- Shoot the UFOs that spawn in waves before they get you!
 
 - Celebrate your first step into the Arena Shooter and contribute more
 
